@@ -1,0 +1,374 @@
+@media (max-width:767px) {
+    /*---------------- Global properties (body, common classes, structure etc) Starts ----------------------*/
+
+    .wow{
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+
+    .section-title { font-size: 24px; }
+    .title-3 {font-size: 18px;}
+    .post-title, .product-title, .widget-title{font-size: 18px;}
+    .bg-text { font-size: 50px; }
+
+    .fs-16 { font-size: 14px; }
+    .fs-20 { font-size: 16px; }
+    .fs-26 { font-size: 20px; }
+    .fs-36 { font-size: 30px; }
+    .fs-48 { font-size: 24px; }
+    .fs-50 { font-size: 36px; }
+
+    .pad-120 {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .pb-120 { padding-bottom: 60px; }
+    .pt-120 { padding-top: 60px; }
+    .pt-100 { padding-top: 50px; }
+    .pad-100 {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .pb-100 { padding-bottom: 50px; }
+    .pad-80 {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .pb-80 { padding-bottom: 50px; }
+    .pt-80 { padding-top: 50px; }
+    .pad-10 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .pt-10{ padding-top: 10px; }
+    .pb-10{ padding-bottom: 10px; }
+    .pad-50 {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .pb-50{ padding-bottom: 30px; }
+    .pt-50{ padding-top: 30px; }
+
+    /*---------------- Global properties (body, common classes, structure etc) Ends ----------------------*/
+
+    /*---- Header Starts ---*/
+    .contact-num {
+        margin: 20px 120px 0 0;
+        text-align: left;
+    }
+    .sign-in {
+        top: auto;
+        bottom: 0;
+    }
+    .theme-menu {
+        float: left;
+        //margin: 0;
+        padding-top: 17px;
+    }
+    .theme-menu li.open .dropdown-menu{
+        display: block;
+        padding-left: 20px;
+    }
+    .theme-menu > li:last-child {
+        padding-left: 0;
+    }
+    .theme-menu .search, .header-style3 .theme-menu .search {
+        margin: 20px 0 0 20px;
+    }
+    .menu-bar .navbar-collapse {
+        box-shadow: none;
+    }
+
+    .header-style2 .menu-bar {
+        background-color: #222222;
+    }
+    .header-style2 .theme-menu .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+
+    .top-bar2 .navbar-logo {
+        display: table;
+        margin: auto auto 15px;
+        text-align: center;
+    }
+    .top-bar2 ul {
+        text-align: center;
+    }
+    .top-bar2 ul li { display: block; }
+    .top-bar2 ul li + li {
+        border-left: 0 none;
+        margin: 25px 0 0;
+        padding: 0;
+    }
+    .header-style3 .sign-in {
+        float: left;
+        width: 180px;
+    }
+    .header-style3 .navbar-toggle {
+        margin: 6px 0 0;
+    }
+    .header-style3 .theme-menu .dropdown-menu > li > a:hover, .header-style3 .theme-menu .dropdown-menu > li > a:focus {
+        color: #ffffff;
+    }
+
+    /*---- Header Ends  ---*/
+
+    /*--- Home Starts --- */
+    .track-prod {
+        margin: 65px 15px 0;
+    }
+
+    .prod-delivery::before {
+        width: 70%;
+    }
+    .delivery-img {
+        bottom: 0;
+        left: 15px;
+        margin: auto;
+        right: 15px;
+        top: 0;
+        text-align: center;
+    }
+
+    .feature-2 .col-sm-4:nth-child(-n+2) {
+        margin-bottom: 25px;
+    }
+    .feature-content {
+        width: 80%;
+    }
+
+    .pricing-box {
+        display: table;
+        margin: auto auto 50px;
+    }
+    .pricing-wrap .col-md-4:last-child .pricing-box {
+        margin-bottom: 0;
+    }
+    /*---- Home Ends  ---*/
+
+    /*---- Popup: Login Starts ---*/
+    .modal-dialog {
+        margin: 100px 15px;
+        width: auto;
+    }
+    /*---- Popup: Login Ends  ---*/
+
+    /*---- Blog Starts ---*/
+    .post-wrap p {
+        font-size: 14px;
+    }
+    .pagintn > li a {
+        height: 45px;
+        padding: 15px;
+    }
+    /*---- Blog Starts ---*/
+
+    /*---- Comment Ends  ---*/
+    .comment-author .avatar{
+        top: 0;
+    }
+    .comment-metadata{
+        padding-left: 80px;
+        display: block;
+    }
+    .comment-content{
+        margin: 15px 0 0 0;
+        width: 100%;
+    }
+    /*---- Comment Ends  ---*/
+
+    /*---- Pages Starts ---*/
+    .more-about-wrap .col-md-4:nth-child(-n+2) {
+        margin-bottom: 50px;
+    }
+    .error-wrap .section-title {
+        font-size: 80px;
+    }
+
+    .tracking-form .title-1 {
+        display: block;
+    }
+    .tracking-form span {
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .progress-wrap {
+        margin-left: 16.6667%;
+    }
+    .progress-content div {
+        margin: 20px 0;
+        text-align: center;
+    }
+    .border-left {
+        border-top: none !important;
+    }
+    .progress-status::before {
+        display: none;
+        /* border-bottom: 3px dotted #d5d5d5;
+        content: "";
+        position: absolute;
+        top: 42%;
+        width: 65%; */
+    }
+
+    /* .progress-status::after {
+        border-left: 3px dotted #d5d5d5;
+        content: "";
+        height: 35px;
+        left: 16px;
+        position: absolute;
+        top: 34px;
+        width: 2px;
+    } */
+
+    .dot-left-sub{
+        left:10px !important;
+        top: 14px !important;
+    }
+    .border-right {
+        border-bottom: none !important;
+        /* left: 34%;
+        margin-right: 0;
+        top: 80%;
+        width: 31%; */
+    }
+    .progress-wrap .themeclr-border {
+        left: 30%;
+        top: 39%;
+        background-color: #ffffff;
+    }
+    /* .progress-wrap::after {
+        border-left: 3px dotted red;
+        content: "";
+        height: 38%;
+        left: 16px;
+        position: absolute;
+        top: 115%;
+        width: 3px;
+    } */
+    .d1{
+        /* display: none; */
+        width: 25px !important;
+        height: 25px !important;
+        left: 5px !important;
+        top: -440px !important;
+    }
+
+    .d2{
+        left: 3px !important;
+        width: 25px !important;
+        height: 25px !important;
+        top: -282px !important;
+    }
+
+    .d3{
+        left: 3px !important;
+        width: 25px !important;
+        height: 25px !important;
+        top: -150px !important;
+
+    }
+    .dot-right {
+        /* display: none; */
+        margin-top: 2px;
+        right: 66%;
+    }
+
+    .theme-countdown > span {
+        font-size: 30px;
+    }
+
+    .map .map-canvas {
+        height: 300px;
+    }
+    /*---- Pages Ends  ---*/
+
+    /*---- Footer Starts ---*/
+    .footer-widget:nth-child(-n+2) {
+        margin-bottom: 30px;
+    }
+    .footer-bottom p {
+        text-align: center;
+    }
+    /*---- Footer Ends  ---*/
+
+
+
+    .border-left-active{
+        border-top: none !important;
+        border-left: 5px dotted #d5d5d5;
+        position: absolute;
+        height: 100px;
+        border-top:none;
+        margin-top: -50px;
+        margin-left: 0px;
+    }
+
+    .dot-left-active{
+        margin-top: -60px;
+        width: 30px !important;
+        height: 30px !important;
+        margin-left: 2px;
+        top: -15px !important;
+    }
+
+
+    .themeclr-border-sub{
+        margin-left: 0px;
+        margin-top: 19px;
+    }
+
+    .sub-status{
+
+        text-align: left;
+        padding-left: 50px !important;
+        padding-top: 10px;
+    }
+
+    .progress-content .title-1{
+        text-align: left;
+        margin-left: 50px !important;
+        font-size: 18px;
+        width: 100%;
+        /* padding-top: 73px; */
+    }
+
+    .second_bar .row{
+        margin-left: 30px !important;
+    }
+
+    .sec_status h2{
+        padding-bottom: 75px !important;
+    }
+
+    .progress-status .bl1{
+        height: 143px;
+        border-left: 3px dotted #d5d5d5 ;
+        top: -424px !important;
+        left: -9px;
+    }
+
+    .progress-status .br1{
+        height: 110px;
+        border-left: 3px dotted #d5d5d5 ;
+        top: -256px !important;
+        left: 16px;
+    }
+
+    .first_border{
+        border-left:3px dotted #d5d5d5 ;
+        height: 40px;
+        top: 32px;
+        left: 16px;
+    }
+
+}
+
+@media (max-width:452px) {
+
+    .progress-status .arrived{
+        height: 87px;
+    }
+}
