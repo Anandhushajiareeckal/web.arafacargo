@@ -21,4 +21,12 @@ class FrontendController extends Controller
     public function tracking(){
         return view('frontend.tracking');
     }
+
+    public function gallery(){
+        return view('frontend.gallery');
+    }
+
+    public function service(){
+        return view('frontend.service');
+    }
 }

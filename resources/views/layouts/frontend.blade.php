@@ -95,7 +95,7 @@
                             <div class="col-md-10 col-sm-10 fs-12">
                                 <div id="navbar" class="collapse navbar-collapse no-pad">
                                     <ul class="navbar-nav theme-menu">
-                                        <li class="dropdown active">
+                                        <li class="dropdown @yield('home')">
                                             <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Home </a>
                                             {{-- <ul class="dropdown-menu">
                                                 <li><a href="index.html">Home Page1</a></li>
@@ -119,10 +119,10 @@
                                                 </li>
                                             </ul> --}}
                                         </li>
-                                        <li> <a href="/about">about</a> </li>
-                                        <li> <a href="/tracking"> tracking </a> </li>
+                                        <li class="@yield('about')"> <a href="/about">about</a> </li>
+                                        <li class="@yield('tracking')"> <a href="/tracking"> tracking </a> </li>
                                         {{-- <li> <a href="pricing-plans.html"> pricing </a> </li> --}}
-                                        <li> <a href="/contact"> contact </a> </li>
+                                        <li class="@yield('contact')"> <a href="/contact"> contact </a> </li>
                                         {{-- <li class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Blog</a>
                                              <ul class="dropdown-menu">

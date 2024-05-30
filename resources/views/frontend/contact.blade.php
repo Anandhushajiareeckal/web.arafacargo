@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('contact')
+active
+@endsection
 @section('content')
 
 <!-- Content Wrapper -->

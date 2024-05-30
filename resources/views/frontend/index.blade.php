@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('home')
+active
+@endsection
 @section('content')
 <!-- Content Wrapper -->
 <article>
@@ -52,10 +55,8 @@
                 <div class="col-md-6">
                     <div class="about-us">
                         <h2 class="section-title pb-10 wow fadeInUp" data-wow-offset="50" data-wow-delay=".20s"> About Us </h2>
-                        <p class="fs-16 wow fadeInUp" data-wow-offset="50" data-wow-delay=".25s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-                            erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                            tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <p class="fs-16 wow fadeInUp" data-wow-offset="50" data-wow-delay=".25s">
+                            Leveraging cutting-edge technology, Arafa Cargo offers real-time tracking and transparent communication throughout the shipping process. Our advanced logistics systems ensure efficient route planning, optimal cargo handling, and continuous monitoring to keep you informed every step of the way.</p>
                         <ul class="feature">
                             <li>
                                 <img alt="" src="{{asset('frontend/assets/img/icons/icon-2.png')}}" class="wow fadeInUp" data-wow-offset="50" data-wow-delay=".20s" />
@@ -90,7 +91,7 @@
     </section>
     <!-- /.About Us -->
 
-    <!-- Calculate Your Cost -->
+    {{-- <!-- Calculate Your Cost -->
     <section class="calculate pt-100">
         <div class="theme-container container">
             <span class="bg-text right wow fadeInUp" data-wow-offset="50" data-wow-delay=".20s"> calculate </span>
@@ -161,7 +162,7 @@
             </div>
         </div>
     </section>
-    <!-- /.Calculate Your Cost -->
+    <!-- /.Calculate Your Cost --> --}}
 
     <!-- Steps -->
     <section class="steps-wrap mask-overlay pad-80">
@@ -171,21 +172,21 @@
                     <div class="font-2 fs-50 wow fadeInLeft" data-wow-offset="50" data-wow-delay=".20s"> 1. </div>
                     <div class="steps-content wow fadeInLeft" data-wow-offset="50" data-wow-delay=".25s">
                         <h2 class="title-3">Order</h2>
-                        <p class="gray-clr">Duis autem vel eum iriur <br> hendrerit in vulputate</p>
+                        <p class="gray-clr"> Ensuring your goods reach their <br> destination safely and on time</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="font-2 fs-50 wow fadeInLeft" data-wow-offset="50" data-wow-delay=".20s"> 2. </div>
                     <div class="steps-content wow fadeInLeft" data-wow-offset="50" data-wow-delay=".25s">
                         <h2 class="title-3">Wait</h2>
-                        <p class="gray-clr">Duis autem vel eum iriur <br> hendrerit in vulputate</p>
+                        <p class="gray-clr">Minimizes wait times,ensuring<br>delivery with efficient logistics</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="font-2 fs-50 wow fadeInLeft" data-wow-offset="50" data-wow-delay=".20s"> 3. </div>
                     <div class="steps-content wow fadeInLeft" data-wow-offset="50" data-wow-delay=".25s">
                         <h2 class="title-3">Deliver</h2>
-                        <p class="gray-clr">Duis autem vel eum iriur <br> hendrerit in vulputate</p>
+                        <p class="gray-clr"> Promises swift delivery<br>through optimized logistics</p>
                     </div>
                 </div>
             </div>
@@ -202,10 +203,11 @@
                     <div class="pt-120 rel-div">
                         <div class="pb-50 hidden-xs"></div>
                         <h2 class="section-title wow fadeInUp" data-wow-offset="50" data-wow-delay=".20s"> Get the <span class="theme-clr"> fastest </span> product delivery </h2>
-                        <p class="fs-16 wow fadeInUp" data-wow-offset="50" data-wow-delay=".25s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <br>
-                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam <br>
-                            erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci <br>
-                            tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <p class="fs-16 wow fadeInUp" data-wow-offset="50" data-wow-delay=".25s"><p> Cargo provides reliable product delivery services, managing every step of the<br>
+                            transportation process with precision. From efficient loading to careful<br>
+                            handling and timely dispatch, we ensure your products reach their<br>
+                            destination swiftly and safely. With advanced logistics solutions and<br>
+                            a commitment to excellence, Arafa Cargo delivers peace of mind along <br>with your goods.</p>
                         <div class="pb-120 hidden-xs"></div>
                     </div>
                     <div class="delivery-img pt-10">
@@ -268,7 +270,7 @@
     </section>
     <!-- /.Testimonial -->
 
-    <!-- Pricing & Plans -->
+    {{-- <!-- Pricing & Plans -->
     <section class="pricing-wrap pt-120">
         <div class="theme-container container">
             <span class="bg-text center wow fadeInUp" data-wow-offset="50" data-wow-delay=".20s"> Pricing </span>
@@ -342,7 +344,7 @@
             </div>
         </div>
     </section>
-    <!-- /.Pricing & Plans -->
+    <!-- /.Pricing & Plans --> --}}
 
     <!-- Contact us -->
     <section class="contact-wrap pad-120">
