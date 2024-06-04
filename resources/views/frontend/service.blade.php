@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('service')
+active
+@endsection
 @section('content')
 <article>
     <!-- Breadcrumb -->
@@ -18,8 +21,8 @@
                 </div>
                 <div class="col-sm-4">
                     <ol class="breadcrumb-menubar list-inline">
-                        <li><a href="#" class="gray-clr">Home</a></li>
-                        <li class="active">Blog Posts</li>
+                        <li><a href="/" class="gray-clr">home</a></li>
+                        <li class="active">service</li>
                     </ol>
                 </div>
             </div>

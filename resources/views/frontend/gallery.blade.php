@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('gallery')
+active
+@endsection
 @section('content')
 
 <article>
@@ -18,7 +21,7 @@
                 </div>
                 <div class="col-sm-4">
                     <ol class="breadcrumb-menubar list-inline">
-                        <li><a href="#" class="gray-clr">Home</a></li>
+                        <li><a href="/  " class="gray-clr">Home</a></li>
                         <li class="active">Gallery</li>
                     </ol>
                 </div>

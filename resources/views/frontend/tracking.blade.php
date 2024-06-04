@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('tracking')
+active
+@endsection
 @section('content')
 
 <!-- Content Wrapper -->
@@ -15,8 +18,8 @@
                 </div>
                 <div class="col-sm-4">
                     <ol class="breadcrumb-menubar list-inline">
-                        <li><a href="#" class="gray-clr">Home</a></li>
-                        <li class="active">Track</li>
+                        <li><a href="/" class="gray-clr">Home</a></li>
+                        <li class="active">Tracking</li>
                     </ol>
                 </div>
             </div>

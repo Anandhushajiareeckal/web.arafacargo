@@ -364,6 +364,10 @@
         left: 16px;
     }
 
+    .navbar-logo img{
+        height: 42px !important;
+    }
+
 }
 
 @media (max-width:452px) {

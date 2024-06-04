@@ -20,4 +20,6 @@ Route::get('/contact',[App\Http\Controllers\FrontendController::class, 'contact'
 Route::get('/gallery',[App\Http\Controllers\FrontendController::class, 'gallery']);
 Route::get('/service',[App\Http\Controllers\FrontendController::class, 'service']);
 
+
+
 Route::post('/tracking',[App\Http\Controllers\TrackingController::class, 'tracking'])->name('tracking');
